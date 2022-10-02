@@ -9,74 +9,76 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body class="flex">
   <!-- Navigation Bar -->
-  <header>
-    <section><img src="assets/conference.png" /></section>
+  <header id="head">
+    <section id="confrence"><img style="padding:10px;max-width:100%;height:auto" src="./images/conference.png" /></section>
     <section>
-      <h3>Design Conference</h3>
+      <h3 id="heading1">Design <span>Conference<span></h3>
     </section>
-    <nav>
+    <nav id="ul1">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Speakers</a></li>
-        <li><a href="#">Schedule</a></li>
-        <li><a href="#">Venue</a></li>
-        <li><a href="#">Contact</a></li>
+        <li  style="display:inline;"><a id="links" href="#">Home</a></li>
+        <li style="display:inline ;"><a id="links" href="#">Speakers</a></li>
+        <li style="display:inline ;"><a id="links" href="#">Schedule</a></li>
+        <li style="display:inline ;"><a id="links" href="#">Venue</a></li>
+        <li style="display:inline ;"><a id="links" href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
   <!-- The Hero Unit -->
-  <div>
-    <h1>Dedicated to the Craft of Building Websites</h1>
-    <h2>
+  
+  <div class="div">
+    <h1 id="heading2">Dedicated to the Craft of Building Websites</h1>
+    <h2 id="heading3">
       Every year the brightest web designers and front-end developers descend
       on Chicago to discuss the latest technologies.
     </h2>
-    <h2>Join us this August!</h2>
-    <section><button>Register Now</button></section>
+    <h2 id="heading3">Join us this August!</h2>
+    <section><button id="button">Register Now</button></section>
   </div>
 
   <!-- The Flex container that holds each paper or card -->
-  <section>
-    <section>
-      <article>
-        <h3>Speakers</h3>
-        <a href="#">
-          <img src="assets/speakers.jpg" alt="Professional Speaker" />
-          <h4>World-Class Speakers</h4>
+     <section>
+    <section class="section1 ">
+      <article class="article1 ">
+        <h3 id="info">Speakers</h3>
+        <a style="text-decoration:none ;" href="#">
+          <img style="border-radius:100%; max-width:100%;height:auto;" src="./images/speakers.jpg" alt="Professional Speaker"  width="200px" height="200px"/>
+          <h4 id="info" style="color: black;">World-Class Speakers</h4>
         </a>
-        <p>
-          Joining us from all around the world are over twenty fantastic
+        <p id="infos">
+          Joining us from all around the world are over twenty fantastic<br>
           speakers, share their stories.
         </p>
-      </article>
-      <article>
+      </article >
+      <article class="article1" >
         <h3>Schedule</h3>
-        <a href="#">
-          <img src="assets/schedule.jpg" alt="Schedule" />
-          <h4>Three Inspiring Days</h4>
+        <a style="text-decoration:none ;" href="#">
+          <img style="border-radius:100%; max-width:100%; height:auto;" src="./images/schedule.jpg" alt="Schedule"  width="200px" height="200px" />
+          <h4 id="info" style="color: black;">Three Inspiring Days</h4>
         </a>
         <p>
-          Enjoy three inspiring and action-packed days of tals, gatherings, and
+          Enjoy three inspiring and action-packed days of tals, gatherings, and<br>
           all-around good times.
         </p>
+    
       </article>
-      <article>
+      <article class="article1" >
         <h3>Venue</h3>
-        <a href="#">
-          <img src="assets/venue.jpg" alt="Venue" />
-          <h4>The Chicago Theatre</h4>
+        <a style="text-decoration:none ;" href="#">
+          <img style="border-radius:100%;max-width:100%;height:auto;" src="./images/venue.jpg" alt="Venue"   width="200px" height="200px"/>
+          <h4 id="info" style="color: black;">The Chicago Theatre</h4>
         </a>
         <p>
           Within the heart of The Chicago Theatre that will provide
-          a beautiful conference venue.
+          a<br> beautiful conference venue.
         </p>
       </article>
     </section>
     <!-- Footer -->
     <footer>
-      <div>
+      <div class="foot">
         <div>
           <!-- Footer-links -->
           <ul>
@@ -84,7 +86,7 @@
                 <!-- Footer Header -->
                 <h4>ABOUT</h4>
               </strong></li>
-            <li>We are an event management company specialized in arranging events for large corporates</li>
+            <li style="color: white;">We are an event management company<br> specialized in arranging events for large<br> corporates</li>
           </ul>
         </div>
         <div>
@@ -118,16 +120,16 @@
                 <!-- Footer Header -->
                 <p>CONTACT</p>
               </strong></li>
-            <li><i class="fa fa-phone" aria-hidden="true"></i> +27 000 0004l</li>
-            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> info@nevex.com</li>
-            <li><i class="fa fa-map-marker" aria-hidden="true"></i> 1 Street. NYC</li>
+            <li style="color: white;"><i  class="fa fa-phone" aria-hidden="true"></i> +27 000 0004l</li>
+            <li style="color: white;"><i class="fa fa-envelope-o" aria-hidden="true"></i> info@nevex.com</li>
+            <li style="color: white;"><i class="fa fa-map-marker" aria-hidden="true"></i> 1 Street. NYC</li>
           </ul>
         </div>
 
         <div>
           <!-- social media links -->
-          <ul>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <ul id="social">
+            <li ><a href="#"><i class="fa fa-facebook"></i></a></li>
             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
             <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
